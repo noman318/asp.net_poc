@@ -86,13 +86,13 @@ Partial Public Class WebForm1
     Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''ddlcurrency control.
+    '''service_type control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents ddlcurrency As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents service_type As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''Label26 control.

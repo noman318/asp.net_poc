@@ -32,9 +32,9 @@
                     </div>
                 </div>
                  <div class="form-group d-flex align-items-center" style="padding-top:10px; margin-top:10px; margin-bottom:10px">
-                     <asp:Label ID="Label3" runat="server" AssociatedControlID="ddlcurrency" CssClass="col-md-3 control-label">Type</asp:Label>
+                     <asp:Label ID="Label3" runat="server" AssociatedControlID="service_type" CssClass="col-md-3 control-label">Type</asp:Label>
                      <div class="col-md-8 col-xs-11" style="margin-left:-9%">
-                          <asp:DropDownList ID="ddlcurrency" runat="server">
+                          <asp:DropDownList ID="service_type" runat="server">
                                  <asp:ListItem Selected="True" Text="Door to Door Service" Value="door_to_door_service"></asp:ListItem>
                                  <asp:ListItem Text="Service Center" Value="service_center"></asp:ListItem>
                            </asp:DropDownList>
