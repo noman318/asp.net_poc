@@ -25,12 +25,19 @@
                         <asp:TextBox ID="txtCompanyName" runat="server" Width="300px" CssClass="form-control fmtxtbx"></asp:TextBox>
                     </div>
                 </div>
+                <div class="form-group"  style="padding-top:10px; margin-top:10px">
+                    <asp:Label ID="Label4" runat="server" AssociatedControlID="txtServiceRate" CssClass="col-md-3 control-label">Service Rate</asp:Label>
+                    <div class="col-md-8 col-xs-11">
+                        <asp:TextBox ID="txtServiceRate" runat="server" Width="300px" CssClass="form-control" TextMode="Number"></asp:TextBox>
+                    </div>
+                </div>
                  <div class="form-group"  style="padding-top:10px; margin-top:10px; margin-bottom:10px">
                     <asp:Label ID="Label1" runat="server" AssociatedControlID="txtServiceOfferedName" CssClass="col-md-3 control-label">Services Offered</asp:Label>
                     <div class="col-md-8 col-xs-11">
-                        <asp:TextBox ID="txtServiceOfferedName" runat="server" TextMode="MultiLine" Width="300px" CssClass="form-control fmtxtbx"></asp:TextBox>
+                        <asp:TextBox ID="txtServiceOfferedName" runat="server" TextMode="MultiLine" Width="300px" CssClass="form-control"></asp:TextBox>
                     </div>
                 </div>
+
                  <div class="form-group d-flex align-items-center" style="padding-top:10px; margin-top:10px; margin-bottom:10px">
                      <asp:Label ID="Label3" runat="server" AssociatedControlID="service_type" CssClass="col-md-3 control-label">Type</asp:Label>
                      <div class="col-md-8 col-xs-11" style="margin-left:-9%">
@@ -41,13 +48,13 @@
                      </div>
                  </div>
                    <div class="col-md-3 col-xs-11  d-flex align-items-center" style="padding-top:10px; margin-top:10px">
-                    <asp:Label ID="Label26" runat="server" AssociatedControlID="isActive" CssClass="col-md-3 col-xs-11 control-label">Active</asp:Label>
-                      <asp:RadioButtonList ID="isActive" runat="server" RepeatDirection="Horizontal" RepeatLayout="Flow" AutoPostBack="true" style="margin-left:37%">
+                    <asp:Label ID="Label26" runat="server" AssociatedControlID="txtIsActive" CssClass="col-md-3 col-xs-11 control-label">Active</asp:Label>
+                      <asp:RadioButtonList ID="txtIsActive" runat="server" RepeatDirection="Horizontal" RepeatLayout="Flow" AutoPostBack="true" style="margin-left:37%">
                           <asp:ListItem Selected="True" Text="Yes" Value="yes"></asp:ListItem>
                           <asp:ListItem Text="No" Value="no"></asp:ListItem>
                       </asp:RadioButtonList>
                   </div>
-                  <asp:Button ID="btnAdd" runat="server" Text="Save" CssClass="btn btn-primary mt-4" />
+                   <asp:Button runat="server" id="btnSubmit"  Text="Save" CssClass="btn btn-primary mt-4" OnClick="btnSubmit_Click" />
              </fieldset>
          </div>
      </div>

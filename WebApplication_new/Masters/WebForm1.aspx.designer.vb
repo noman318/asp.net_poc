@@ -59,6 +59,24 @@ Partial Public Class WebForm1
     Protected WithEvents txtCompanyName As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''Label4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label4 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''txtServiceRate control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtServiceRate As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
     '''Label1 control.
     '''</summary>
     '''<remarks>
@@ -104,20 +122,20 @@ Partial Public Class WebForm1
     Protected WithEvents Label26 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''isActive control.
+    '''txtIsActive control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents isActive As Global.System.Web.UI.WebControls.RadioButtonList
+    Protected WithEvents txtIsActive As Global.System.Web.UI.WebControls.RadioButtonList
 
     '''<summary>
-    '''btnAdd control.
+    '''btnSubmit control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents btnAdd As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnSubmit As Global.System.Web.UI.WebControls.Button
 End Class
